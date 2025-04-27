@@ -1,8 +1,7 @@
-"# TerrainProducts" 
 # Halifax Regional Municipality - Terrain Products for Fire Hazard Mapping
 
 ### Overview
-This project performs terrain analysis on a given dataset to compute slope, aspect, and elevation models, specifically focusing on fire hazard mapping for the Halifax Regional Municipality (HRM). It uses Google Earth Engine (GEE) to process Sentinel-2 satellite imagery and DEM (Digital Elevation Models) data, and generate hazard layers.
+This project performs terrain analysis on a given dataset to compute slope, aspect, and elevation models, specifically focusing on fire hazard mapping for the Halifax Regional Municipality (HRM). It uses Google Earth Engine (GEE) to process Sentinel-2 satellite imagery and DEM (Digital Elevation Models) data to generate fire hazard layers.
 
 ### Purpose
 The purpose of this project is to assess the fire hazard levels across various regions within HRM by analyzing terrain factors such as slope, aspect, and elevation. This will help to identify high-risk areas for wildfires, aiding in resource allocation and planning for fire prevention strategies.
