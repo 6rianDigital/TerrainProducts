@@ -7,7 +7,7 @@ This project performs terrain analysis on a given dataset to compute slope, aspe
 The purpose of this project is to assess the fire hazard levels across various regions within HRM by analyzing terrain factors such as slope, aspect, and elevation. This will help to identify high-risk areas for wildfires, aiding in resource allocation and planning for fire prevention strategies.
 
 ### Requirements
-- Python 3.x
+- Python 3.13.1
 - Google Earth Engine API
 - geemap library for visualization
 - Access to Sentinel-2 satellite imagery and DEM data
@@ -40,15 +40,3 @@ The purpose of this project is to assess the fire hazard levels across various r
 - Terrain splitting into 4 sections for more granular analysis.
 - Cloud masking for satellite images.
 - Dynamic visualization of terrain features and fire hazard zones.
-
-### Example of Use
-```python
-# Example code to initialize the map and visualize HRM boundary
-import geemap
-import ee
-
-ee.Initialize()
-map = geemap.Map()
-map.addLayer(hali.geometry(), {'color': 'red'}, "HRM Boundary")
-map.setCenter(-63.106018, 44.871443, 7)
-map
